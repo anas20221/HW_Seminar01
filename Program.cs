@@ -58,7 +58,7 @@ ______________________________________________
 -3 -> нет
 7 -> нет
 
-*/
+
 Console.Write ("Please write a number: ");
 int num = Convert.ToInt32(Console.ReadLine()); 
 
@@ -70,3 +70,4 @@ else
 {
     Console.WriteLine($"Number " + num + " is Odd number");
 }
+*/
