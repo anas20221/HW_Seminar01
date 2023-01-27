@@ -51,3 +51,22 @@ if (num_3 > max)
 Console.WriteLine("The biggest number from these three is " + max);
 ______________________________________________
 */ 
+/* Задача 6: Напишите программу, которая на вход принимает число и выдаёт,
+ является ли число чётным (делится ли оно на два без остатка).
+
+4 -> да
+-3 -> нет
+7 -> нет
+
+*/
+Console.Write ("Please write a number: ");
+int num = Convert.ToInt32(Console.ReadLine()); 
+
+if (num % 2 == 0)
+{
+    Console.WriteLine($"Number " + num + " is Even number");
+}
+else 
+{
+    Console.WriteLine($"Number " + num + " is Odd number");
+}
