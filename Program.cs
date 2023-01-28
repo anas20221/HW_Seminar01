@@ -1,4 +1,4 @@
-﻿/* ____________________________________
+﻿/* 
 задача 2
 Напишите программу, которая на вход принимает два числа и выдаёт, 
 какое число большее, а какое меньшее.
@@ -19,7 +19,7 @@ else
 {
     Console.WriteLine("Second number is " + num_2 + " greater then the first number " + num_1);
 }
-_____________________________________________________
+
 */
 
 /* Задача 4: Напишите программу, которая принимает на вход три числа 
@@ -49,7 +49,7 @@ if (num_3 > max)
     max = num_3;
 }
 Console.WriteLine("The biggest number from these three is " + max);
-______________________________________________
+
 */ 
 /* Задача 6: Напишите программу, которая на вход принимает число и выдаёт,
  является ли число чётным (делится ли оно на два без остатка).
@@ -71,3 +71,34 @@ else
     Console.WriteLine($"Number " + num + " is Odd number");
 }
 */
+
+/* 
+Задача 8: Напишите программу, которая на вход принимает число (N),
+ а на выходе показывает все чётные числа от 1 до N.
+
+5 -> 2, 4
+8 -> 2, 4, 6, 8
+*/
+
+Console.Write ("Please write a number: ");
+int num = Convert.ToInt32(Console.ReadLine()); 
+int current_num = 1;
+
+Console.WriteLine("Even numbers are: ");
+
+if (current_num == 1)
+{
+    current_num += 1;
+}
+while(current_num <= num)
+{
+    Console.WriteLine(current_num);
+    current_num += 2;
+}
+
+
+
+
+
+
+
