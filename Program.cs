@@ -78,7 +78,7 @@ else
 
 5 -> 2, 4
 8 -> 2, 4, 6, 8
-*/
+
 
 Console.Write ("Please write a number: ");
 int num = Convert.ToInt32(Console.ReadLine()); 
@@ -95,7 +95,7 @@ while(current_num <= num)
     Console.WriteLine(current_num);
     current_num += 2;
 }
-
+*/
 
 
 
